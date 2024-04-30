@@ -325,19 +325,19 @@ h6 {
 
 @media screen and (max-width: 1680px) {
   h1 {
-    font-size: 8em;
+    font-size: 2em;
   }
 }
 
 @media screen and (max-width: 980px) {
   h1 {
-    font-size: 8em;
+    font-size: 2em;
   }
 }
 
 @media screen and (max-width: 736px) {
   h1 {
-    font-size: 8em;
+    font-size: 2em;
     line-height: 1.4;
   }
   h2 {
@@ -1534,7 +1534,7 @@ header p {
 }
 
 header.major > :last-child {
-  border-bottom: solid 3px #ed6b2d;
+  border-bottom: solid 1px #ed6b2d;
   display: inline-block;
   margin: 0 0 2em 0;
   padding: 0 0.75em 0.5em 0;
@@ -2595,7 +2595,7 @@ button:disabled,
 }
 #main > .inner > section {
   padding: 6em 0 4em 0;
-  border-top: solid 2px rgba(210, 215, 217, 0.75);
+  border-top: solid 1px rgba(210, 215, 217, 0.75);
 }
 #main > .inner > section:first-of-type {
   border-top: 0 !important;
@@ -2989,6 +2989,7 @@ button:disabled,
 
 /* Footer */
 #footer .copyright {
+  text-align: center;
   color: #9fa3a6;
   font-size: 0.9em;
 }
