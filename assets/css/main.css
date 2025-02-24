@@ -1,10 +1,15 @@
 @import url(fontawesome-all.min.css);
 @import url("hhttps://fonts.googleapis.com/css?family=IBM Plex Mono");
-/*
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
+/* Import Lexicon font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lexicon&display=swap");
+
+/* Define a CSS variable for the font */
+:root {
+  --main-font: "Lexicon", sans-serif;
+}
+
+/* Apply the font to the body and other elements */
 html,
 body,
 div,
@@ -91,7 +96,7 @@ video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  font-family: "IBM Plex Mono";
+  font-family: var(--main-font);
   vertical-align: baseline;
 }
 
