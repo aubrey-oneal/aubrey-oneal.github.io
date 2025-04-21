@@ -1,76 +1,345 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Wed Apr 16 2025 19:17:09 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="67dddf353d5ea7c1c68ff755" data-wf-site="67bd3ffa3540384ae568118d">
-<head>
-  <meta charset="utf-8">
-  <title>Global UI Shell</title>
-  <meta content="Global UI Shell" property="og:title">
-  <meta content="Global UI Shell" property="twitter:title">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="Webflow" name="generator">
-  <link href="../css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="../css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="../css/aubrey-oneal.webflow.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"]  }});</script>
-  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="../images/favicon.jpg" rel="shortcut icon" type="image/x-icon">
-  <link href="../images/webclip.png" rel="apple-touch-icon">
-</head>
-<body>
-  <div class="page-wrap">
-    <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navigation w-nav">
-      <div class="navigation-items">
-        <a href="../index.html" class="navigation-item w-nav-link">Aubrey</a>
-        <div class="navigation-wrap">
-          <nav role="navigation" class="navigation-items w-nav-menu">
-            <a href="../portfolio.html" class="navigation-item w-nav-link">Portfolio</a>
-            <a href="../recommendations.html" class="navigation-item w-nav-link">Recommendations</a>
-            <a href="https://drive.google.com/file/d/1_VDQRF7fdAtj2oomFi68VppA7eWkyN3L/view?usp=sharing" target="_blank" class="navigation-item w-nav-link">Resume</a>
-          </nav>
-          <div class="menu-button w-nav-button"><img src="../images/menu-icon_1menu-icon.png" width="22" alt="" class="menu-icon"></div>
+<!DOCTYPE html>
+<!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Wed Apr 16 2025 19:17:09 GMT+0000 (Coordinated Universal Time)  -->
+<html
+  data-wf-page="67dddf353d5ea7c1c68ff755"
+  data-wf-site="67bd3ffa3540384ae568118d"
+>
+  <head>
+    <meta charset="utf-8" />
+    <title>Global UI Shell</title>
+    <meta content="Global UI Shell" property="og:title" />
+    <meta content="Global UI Shell" property="twitter:title" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Webflow" name="generator" />
+    <link href="../css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="../css/webflow.css" rel="stylesheet" type="text/css" />
+    <link
+      href="../css/aubrey-oneal.webflow.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link
+      href="https://fonts.gstatic.com"
+      rel="preconnect"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript">
+      WebFont.load({
+        google: {
+          families: [
+            "Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic",
+          ],
+        },
+      });
+    </script>
+    <script type="text/javascript">
+      !(function (o, c) {
+        var n = c.documentElement,
+          t = " w-mod-";
+        (n.className += t + "js"),
+          ("ontouchstart" in o ||
+            (o.DocumentTouch && c instanceof DocumentTouch)) &&
+            (n.className += t + "touch");
+      })(window, document);
+    </script>
+    <link
+      href="../images/favicon.jpg"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <link href="../images/webclip.png" rel="apple-touch-icon" />
+  </head>
+  <body>
+    <div class="page-wrap">
+      <div
+        data-collapse="medium"
+        data-animation="default"
+        data-duration="400"
+        data-easing="ease"
+        data-easing2="ease"
+        role="banner"
+        class="navigation w-nav"
+      >
+        <div class="navigation-items">
+          <a href="../index.html" class="navigation-item w-nav-link">Aubrey</a>
+          <div class="navigation-wrap">
+            <nav role="navigation" class="navigation-items w-nav-menu">
+              <a href="../portfolio.html" class="navigation-item w-nav-link"
+                >Portfolio</a
+              >
+              <a
+                href="../recommendations.html"
+                class="navigation-item w-nav-link"
+                >Recommendations</a
+              >
+              <a
+                href="https://drive.google.com/file/d/1_VDQRF7fdAtj2oomFi68VppA7eWkyN3L/view?usp=sharing"
+                target="_blank"
+                class="navigation-item w-nav-link"
+                >Resume</a
+              >
+            </nav>
+            <div class="menu-button w-nav-button">
+              <img
+                src="../images/menu-icon_1menu-icon.png"
+                width="22"
+                alt=""
+                class="menu-icon"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-main">
+        <div class="section"></div>
+        <div class="w-layout-grid single-column-project">
+          <div id="w-node-b915ad84-715b-fc9d-8156-ee63d52fd223-c68ff755">
+            <div class="position-name-text">Creating IBM's global UI shell</div>
+            <div class="paragraph-light cc-position-name">Role: designer</div>
+            <div class="paragraph-tiny cc-paragraph-tiny-light">
+              January 2025 - Current<br />
+            </div>
+            <img src="../images/ui-shell-header.jpg" loading="lazy"
+            sizes="(max-width: 3456px) 100vw, 3456px" " alt=""
+            class="article-image" />
+          </div>
+          <div id="w-node-bf104309-69b5-2dd7-8e07-9131b041d9ee-c68ff755">
+            <div class="paragraph-light">
+              IBM has over 300 software products, yet in 2024, fewer than 1% of
+              customers used more than one product. Customer research showed
+              that this was partially because IBM products are not
+              interoperable, user experiences between products are varied, and
+              it was hard to access product trials. Recognizing the impact on
+              revenue and missed upsell opportunities, IBM prioritized building
+              a unified software platform in 2025.
+            </div>
+            <div class="paragraph-light">
+              The Carbon Design System team, which provides standardized
+              components and guidelines for all software teams at IBM, was asked
+              to create a global UI shell to support this platform vision. Our
+              goal was to create components and guidelines that product teams
+              could implement. We established a small 'tiger team' of 6,
+              including 3 developers, a project manager, and 2 designers. My
+              role as a UX designer involved researching existing UI shells in
+              software products, iterating on designs for a unified UI shell
+              with product switching, delivering specs to developers, and
+              keeping product owners engaged.
+            </div>
+            <div class="paragraph-light">
+              We initially partnered with the Automation team, which had an
+              urgent need for a new UI shell across six products in time for
+              THINK, IBM's annual conference. Olivia, the other designer, and I
+              rapidly designed a top navigation rail, a product switcher menu, a
+              tenant switcher, and a local left-hand navigation. Working with
+              the developers on our team, we implemented these in Storybook to
+              present to Automation and shared the new code library in React.
+            </div>
+            <div class="paragraph-light">
+              While this was a successful start to our project, the Automation
+              team continued to request new features and components which I
+              doubted would be beneficial to our larger goal of a global UI with
+              product switching. I realized that we needed to be more firm in
+              communicating our strategy and stance on component designs or we
+              would risk being overly influenced by one team. To stay strategic,
+              I led a session with our project manager, design principal, and
+              Olivia to expand our engagement beyond Automation. Our new focus
+              was on IBM's 5 most valuable products and 9 additional upsell
+              products.
+            </div>
+            <img
+              src="../images/5-LTVs.jpg"
+              loading="lazy"
+              sizes="(max-width: 1856px) 100vw, 1856px"
+              srcset="
+                ../images/5-LTVs-p-500.jpg   500w,
+                ../images/5-LTVs-p-800.jpg   800w,
+                ../images/5-LTVs-p-1080.jpg 1080w,
+                ../images/5-LTVs-p-1600.jpg 1600w,
+                ../images/5-LTVs.jpg        1856w
+              "
+              alt=""
+              class="article-image"
+            />
+            <div class="paragraph-light">
+              I took ownership of the Data &amp; AI portfolio (e.g., watsonx
+              Orchestrate, AI, data, and governance), while Olivia focused on
+              Maximo and Turbonomic. We audited products via trials and test
+              environments, screenshotting user flows and building a database of
+              the components they were (or weren't) using. With that foundation,
+              I reached out to product owners and engineers of the Data &amp; AI
+              portfolio to understand the history behind their mixed UI shells,
+              how they were implemented, and what roadmaps were already in
+              motion. Many were initially resistant—they had competing
+              priorities, disagreed with IBM's platform strategy, or worried a
+              new UI shell would be too hard to implement. But by showing how
+              our delivery model was opinionated yet flexible, with composable
+              components that could be implemented via API or React, I was
+              usually able to turn those conversations into a constructive
+              collaboration.
+            </div>
+            <img
+              src="../images/Header-audit-example.jpg"
+              loading="lazy"
+              sizes="(max-width: 1856px) 100vw, 1856px"
+              srcset="
+                ../images/Header-audit-example-p-500.jpg   500w,
+                ../images/Header-audit-example-p-800.jpg   800w,
+                ../images/Header-audit-example-p-1080.jpg 1080w,
+                ../images/Header-audit-example-p-1600.jpg 1600w,
+                ../images/Header-audit-example.jpg        1856w
+              "
+              alt=""
+              class="article-image"
+            />
+            <img
+              src="../images/Product-switcher.jpg"
+              loading="lazy"
+              sizes="(max-width: 1856px) 100vw, 1856px"
+              srcset="
+                ../images/Product-switcher-p-500.jpg   500w,
+                ../images/Product-switcher-p-800.jpg   800w,
+                ../images/Product-switcher-p-1080.jpg 1080w,
+                ../images/Product-switcher-p-1600.jpg 1600w,
+                ../images/Product-switcher.jpg        1856w
+              "
+              alt=""
+              class="article-image"
+            />
+            <div class="paragraph-light">
+              As our understanding of the UI shell landscape deepened, we
+              refined our designs. I defined required components for the top
+              navigation bar and established guidelines for component order and
+              breakpoints. and developed a new profile menu with a theme
+              switcher and a structured approach to content and settings links.
+            </div>
+            <img
+              src="../images/Opinionated-header.jpg"
+              loading="lazy"
+              sizes="(max-width: 1856px) 100vw, 1856px"
+              srcset="
+                ../images/Opinionated-header-p-500.jpg   500w,
+                ../images/Opinionated-header-p-800.jpg   800w,
+                ../images/Opinionated-header-p-1080.jpg 1080w,
+                ../images/Opinionated-header-p-1600.jpg 1600w,
+                ../images/Opinionated-header.jpg        1856w
+              "
+              alt=""
+              class="article-image"
+            />
+            <div class="paragraph-light">
+              I also developed a new profile menu with a theme switcher and a
+              structured approach to content and settings links.
+            </div>
+            <img
+              src="../images/Profile-menu-flow.jpg"
+              loading="lazy"
+              sizes="(max-width: 1856px) 100vw, 1856px"
+              srcset="
+                ../images/Profile-menu-flow-p-500.jpg   500w,
+                ../images/Profile-menu-flow-p-800.jpg   800w,
+                ../images/Profile-menu-flow-p-1080.jpg 1080w,
+                ../images/Profile-menu-flow-p-1600.jpg 1600w,
+                ../images/Profile-menu-flow.jpg        1856w
+              "
+              alt=""
+              class="article-image"
+            />
+            <div class="paragraph-light">
+              One of the most complex challenges was designing the product
+              switcher. We explored multiple options, such as a nine-dot
+              switcher on the right or a hamburger menu on the left.  But
+              ultimately we felt blocked by the fact that the concept of a
+              platform was still ill-defined. Should users navigate within
+              suites of related products or access any IBM product they own?
+              What about admin users managing multiple teams and projects? What
+              was feasible from an architectural standpoint? With no definitive
+              answers, we tested our designs in real products to refine our
+              approach. Currently our perspective is that a global product
+              switcher between all products is not a wise or feasible move.
+              Instead, we should better define suites of products and ensure
+              they have a seamless navigation experience.
+            </div>
+            <img
+              src="../images/Product-switcher-B.jpg"
+              loading="lazy"
+              sizes="(max-width: 1856px) 100vw, 1856px"
+              srcset="
+                ../images/Product-switcher-B-p-500.jpg   500w,
+                ../images/Product-switcher-B-p-800.jpg   800w,
+                ../images/Product-switcher-B-p-1080.jpg 1080w,
+                ../images/Product-switcher-B-p-1600.jpg 1600w,
+                ../images/Product-switcher-B.jpg        1856w
+              "
+              alt=""
+              class="article-image"
+            /><img
+              src="../images/Product-switcher-B.jpg"
+              loading="lazy"
+              sizes="(max-width: 1856px) 100vw, 1856px"
+              srcset="
+                ../images/Product-switcher-B-p-500.jpg   500w,
+                ../images/Product-switcher-B-p-800.jpg   800w,
+                ../images/Product-switcher-B-p-1080.jpg 1080w,
+                ../images/Product-switcher-B-p-1600.jpg 1600w,
+                ../images/Product-switcher-B.jpg        1856w
+              "
+              alt=""
+              class="article-image"
+            />
+            <div class="paragraph-light">
+              While we've made significant progress, this work is still evolving
+              as we refine our solutions and align them with IBM's broader
+              platform strategy. This work has required advanced UX design
+              skills, from designing flexible navigation patterns to testing
+              real-world implementations, as well as strategic upwards
+              management to align stakeholders across teams. By presenting
+              prototypes, research, and technical constraints, I've helped IBM
+              software leaders understand the challenges of creating a global UI
+              shell that supports seamless product switching at scale.
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="container"></div>
+        </div>
+      </div>
+      <div class="footer-wrap">
+        <div>
+          <a
+            href="https://webflow.com/"
+            target="_blank"
+            class="webflow-link w-inline-block"
+          >
+            <div class="paragraph-tiny">© 2025 Aubrey O'Neal</div>
+          </a>
+        </div>
+        <div class="footer-links">
+          <a
+            href="https://github.com/aubrey-oneal"
+            target="_blank"
+            class="footer-item"
+            >Github</a
+          >
+          <a
+            href="https://www.linkedin.com/in/aubrey-oneal/"
+            target="_blank"
+            class="footer-item"
+            >Linkedin</a
+          >
         </div>
       </div>
     </div>
-    <div class="page-main">
-      <div class="section"></div>
-      <div class="w-layout-grid single-column-project">
-        <div id="w-node-b915ad84-715b-fc9d-8156-ee63d52fd223-c68ff755">
-          <div class="position-name-text">Creating IBM&#x27;s global UI shell</div>
-          <div class="paragraph-light cc-position-name">Role: designer</div>
-          <div class="paragraph-tiny cc-paragraph-tiny-light">January 2025 - Current<br></div>
-        </div>
-        <div id="w-node-bf104309-69b5-2dd7-8e07-9131b041d9ee-c68ff755">
-          <div class="paragraph-light">IBM has over 300 software products, yet in 2024, fewer than 1% of customers used more than one product. Customer research showed that this was partially because IBM products are not interoperable, user experiences between products are varied, and it was hard to access product trials. Recognizing the impact on revenue and missed upsell opportunities, IBM prioritized building a unified software platform in 2025.</div>
-          <div class="paragraph-light">The Carbon Design System team, which provides standardized components and guidelines for all software teams at IBM, was asked to create a global UI shell to support this platform vision. Our goal was to create components and guidelines that product teams could implement. We established a small ‘tiger team’ of 6, including 3 developers, a project manager, and 2 designers. My role as a UX designer involved researching existing UI shells in software products, iterating on designs for a unified UI shell with product switching, delivering specs to developers, and keeping product owners engaged.</div>
-          <div class="paragraph-light">We initially partnered with the Automation team, which had an urgent need for a new UI shell across six products in time for THINK, IBM’s annual conference. Olivia, the other designer, and I rapidly designed a top navigation rail, a product switcher menu, a tenant switcher, and a local left-hand navigation. Working with the developers on our team, we implemented these in Storybook to present to Automation and shared the new code library in React.</div>
-          <div class="paragraph-light">While this was a successful start to our project, the Automation team continued to request new features and components which I doubted would be beneficial to our larger goal of a global UI with product switching. I realized that we needed to be more firm in communicating our strategy and stance on component designs or we would risk being overly influenced by one team. To stay strategic, I led a session with our project manager, design principal, and Olivia to expand our engagement beyond Automation. Our new focus was on IBM’s 5 most valuable products and 9 additional upsell products.</div><img src="../images/5-LTVs.jpg" loading="lazy" sizes="(max-width: 1856px) 100vw, 1856px" srcset="../images/5-LTVs-p-500.jpg 500w, ../images/5-LTVs-p-800.jpg 800w, ../images/5-LTVs-p-1080.jpg 1080w, ../images/5-LTVs-p-1600.jpg 1600w, ../images/5-LTVs.jpg 1856w" alt="" class="article-image">
-          <div class="paragraph-light">I took ownership of the Data &amp; AI portfolio (e.g., watsonx Orchestrate, AI, data, and government), while Olivia focused on Maximo and Turbonomic. We audited products via trials and test environments,  screenshotting user flows and building a database of the components they were (or weren’t) using. With that foundation, I reached out to product owners and engineers of the Data &amp; AI portfolio to understand the history behind their mixed UI shells, how they were implemented, and what roadmaps were already in motion. Many were initially resistant—they had competing priorities, disagreed with IBM’s platform strategy, or worried a new UI shell would be too hard to implement. But by showing how our delivery model was opinionated yet flexible, with composable components that could be implemented via API or React, I was usually able to turn those conversations into a constructive collaboration.</div><img src="../images/Header-audit-example.jpg" loading="lazy" sizes="(max-width: 1856px) 100vw, 1856px" srcset="../images/Header-audit-example-p-500.jpg 500w, ../images/Header-audit-example-p-800.jpg 800w, ../images/Header-audit-example-p-1080.jpg 1080w, ../images/Header-audit-example-p-1600.jpg 1600w, ../images/Header-audit-example.jpg 1856w" alt="" class="article-image">
-          <div class="paragraph-light caption">Databand dashboard before adopting the Carbon Design System.</div><img src="../images/Product-switcher.jpg" loading="lazy" sizes="(max-width: 1856px) 100vw, 1856px" srcset="../images/Product-switcher-p-500.jpg 500w, ../images/Product-switcher-p-800.jpg 800w, ../images/Product-switcher-p-1080.jpg 1080w, ../images/Product-switcher-p-1600.jpg 1600w, ../images/Product-switcher.jpg 1856w" alt="" class="article-image">
-          <div class="paragraph-light">As our understanding of the UI shell landscape deepened, we refined our designs. I defined required components for the top navigation bar and established guidelines for component order and breakpoints. and developed a new profile menu with a theme switcher and a structured approach to content and settings links. </div><img src="../images/Opinionated-header.jpg" loading="lazy" sizes="(max-width: 1856px) 100vw, 1856px" srcset="../images/Opinionated-header-p-500.jpg 500w, ../images/Opinionated-header-p-800.jpg 800w, ../images/Opinionated-header-p-1080.jpg 1080w, ../images/Opinionated-header-p-1600.jpg 1600w, ../images/Opinionated-header.jpg 1856w" alt="" class="article-image">
-          <div class="paragraph-light">I also developed a new profile menu with a theme switcher and a structured approach to content and settings links. </div><img src="../images/Profile-menu-flow.jpg" loading="lazy" sizes="(max-width: 1856px) 100vw, 1856px" srcset="../images/Profile-menu-flow-p-500.jpg 500w, ../images/Profile-menu-flow-p-800.jpg 800w, ../images/Profile-menu-flow-p-1080.jpg 1080w, ../images/Profile-menu-flow-p-1600.jpg 1600w, ../images/Profile-menu-flow.jpg 1856w" alt="" class="article-image">
-          <div class="paragraph-light">One of the most complex challenges was designing the product switcher. We explored multiple options, such as a nine-dot switcher on the right or a hamburger menu on the left.  But ultimately we felt blocked by the fact that the concept of a platform was still ill-defined. Should users navigate within suites of related products or access any IBM product they own? What about admin users managing multiple teams and projects? What was feasible from an architectural standpoint? With no definitive answers, we tested our designs in real products to refine our approach. Currently our perspective is that a global product switcher between all products is not a wise or feasible move. Instead, we should better define suites of products and ensure they have a seamless navigation experience.</div><img src="../images/Product-switcher-B.jpg" loading="lazy" sizes="(max-width: 1856px) 100vw, 1856px" srcset="../images/Product-switcher-B-p-500.jpg 500w, ../images/Product-switcher-B-p-800.jpg 800w, ../images/Product-switcher-B-p-1080.jpg 1080w, ../images/Product-switcher-B-p-1600.jpg 1600w, ../images/Product-switcher-B.jpg 1856w" alt="" class="article-image"><img src="../images/Product-switcher-B.jpg" loading="lazy" sizes="(max-width: 1856px) 100vw, 1856px" srcset="../images/Product-switcher-B-p-500.jpg 500w, ../images/Product-switcher-B-p-800.jpg 800w, ../images/Product-switcher-B-p-1080.jpg 1080w, ../images/Product-switcher-B-p-1600.jpg 1600w, ../images/Product-switcher-B.jpg 1856w" alt="" class="article-image">
-          <div class="paragraph-light">While we&#x27;ve made significant progress, this work is still evolving as we refine our solutions and align them with IBM’s broader platform strategy. This work has required advanced UX design skills, from designing flexible navigation patterns to testing real-world implementations, as well as strategic upwards management to align stakeholders across teams. By presenting prototypes, research, and technical constraints, I’ve helped IBM software leaders understand the challenges of creating a global UI shell that supports seamless product switching at scale.</div>
-        </div>
-      </div>
-      <div class="section">
-        <div class="container"></div>
-      </div>
-    </div>
-    <div class="footer-wrap">
-      <div>
-        <a href="https://webflow.com/" target="_blank" class="webflow-link w-inline-block">
-          <div class="paragraph-tiny">© 2025 Aubrey O’Neal</div>
-        </a>
-      </div>
-      <div class="footer-links">
-        <a href="https://github.com/aubrey-oneal" target="_blank" class="footer-item">Github</a>
-        <a href="https://www.linkedin.com/in/aubrey-oneal/" target="_blank" class="footer-item">Linkedin</a>
-      </div>
-    </div>
-  </div>
-  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=67bd3ffa3540384ae568118d" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <script src="../js/webflow.js" type="text/javascript"></script>
-</body>
+    <script
+      src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=67bd3ffa3540384ae568118d"
+      type="text/javascript"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/webflow.js" type="text/javascript"></script>
+  </body>
 </html>
